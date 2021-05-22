@@ -1,0 +1,16 @@
+{
+  "name": "gautam-portfolio",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "node --experimental-worker ./src/main.js",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.3.3"
+  },
+  "dependencies": {
+    "three": "^0.128.0"
+  }
+}
